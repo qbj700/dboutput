@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+build/
+# *.spec  # spec 파일은 빌드 설정이므로 프로젝트에 포함
+
+# Virtual Environment
+venv/
+
+# Oracle JDBC Driver와 JRE는 프로젝트에 포함
+# (Eclipse Temurin JRE 및 Oracle JDBC 드라이버 재배포 허용)
+# jre/
+# ojdbc*.jar
+# dist/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Executable files
+*.exe
+*.msi
+
+# Test files
+test_*.py
+*_test.py
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+*.zip
+
+# Configuration files with secrets (if any in future)
+.env
+.env.local
+.env.production
+config.local.py
+secrets.py
