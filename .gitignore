@@ -41,8 +41,8 @@ Desktop.ini
 *.db
 *.sqlite
 
-# Executable files
-*.exe
+# Executable files (exe는 Git LFS로 관리)
+# *.exe
 *.msi
 
 # Test files
